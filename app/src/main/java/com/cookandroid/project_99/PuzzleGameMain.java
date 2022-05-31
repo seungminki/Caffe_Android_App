@@ -20,7 +20,8 @@ public class PuzzleGameMain extends AppCompatActivity {
         buttonStartGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(PuzzleGameMain.this, Puzzlegame.class));
+                Intent intent = new Intent(getApplicationContext(), Puzzlegame.class);
+                startActivity(intent);
             }
         });
     }

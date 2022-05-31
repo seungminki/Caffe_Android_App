@@ -22,6 +22,8 @@
         <activity android:name=".Basket" android:label="장바구니 목록" />
         <activity android:name=".BuyList" android:label="주문내역" />
         <activity android:name=".HotandIce" android:label="." />
+        <activity android:name=".PuzzleGameMain" android:label="." />
+        <activity android:name=".Puzzlegame" android:label="." />
 
     </application>
 
